@@ -1,6 +1,7 @@
+@AllCases
 Feature: Validatie UI test cases for Trello Application
 
-  @Login
+  @Login @UICases
   Scenario: Validate succesful login to trello application
     Given I navigate to application
     When I navigate to login screen
@@ -8,7 +9,7 @@ Feature: Validatie UI test cases for Trello Application
     Then I should see login succesful
     And I logout and quit browser
     
-  @CreateBoard
+  @CreateBoard @UICases
   Scenario Outline: Create a board, add list and add card to it
     Given I navigate to application
     When I login withvalid credetials
@@ -19,4 +20,4 @@ Feature: Validatie UI test cases for Trello Application
     
     Examples:
 			| boardName	| listName	| cardName		|
-			|random name|		List1		|card1--card2	|
+			|Random name|		List1		|Card1--Card2	|
