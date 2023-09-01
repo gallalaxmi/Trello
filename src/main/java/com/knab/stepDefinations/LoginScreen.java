@@ -32,7 +32,7 @@ public class LoginScreen extends BaseDriver {
 		action.doClick(login.loginSubmit);
 	}
 
-	@Given("^I login withvalid credetials$")
+	@Given("^I login with valid credetials$")
 	public void logIn() throws IOException, InterruptedException {
 		action.doClick(home.logIn);
 		action.doSendKeys(login.userName, prop.getProperty("username"));

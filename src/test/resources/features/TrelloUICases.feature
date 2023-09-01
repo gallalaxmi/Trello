@@ -2,7 +2,7 @@
 Feature: Validatie UI test cases for Trello Application
 
   @Login @UICases
-  Scenario: Validate succesful login to trello application
+  Scenario: Validate successful login to trello application
     Given I navigate to application
     When I navigate to login screen
     And I enter the valid username and password
@@ -12,7 +12,7 @@ Feature: Validatie UI test cases for Trello Application
   @CreateBoard @UICases
   Scenario Outline: Create a board, add list and add card to it
     Given I navigate to application
-    When I login withvalid credetials
+    When I login with valid credetials
     And I create a new board with "<boardName>"
     And I add a list "<listName>"
     And I add a card "<cardName>"

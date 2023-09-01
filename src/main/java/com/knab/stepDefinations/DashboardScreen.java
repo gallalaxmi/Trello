@@ -25,7 +25,7 @@ public class DashboardScreen extends BaseDriver {
 	public void createNewBoard(String boardName) {
 		action.doClick(boards.createButton);
 		action.doClick(boards.createBoardLink);
-		if (boardName.equals("random name"))
+		if (boardName.equals("Random name"))
 			action.doSendKeys(boards.boardTitle, faker.name().firstName());
 		else
 			action.doSendKeys(boards.boardTitle, boardName);

@@ -38,7 +38,7 @@ public class BaseDriver {
 		getDriver().manage().window().maximize();
 		getDriver().manage().deleteAllCookies();
 
-		getDriver().get(prop.getProperty("url"));
+		getDriver().get(prop.getProperty("url1"));
 
 		return getDriver();
 	}
