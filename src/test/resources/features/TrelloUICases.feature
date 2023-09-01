@@ -19,5 +19,5 @@ Feature: Validatie UI test cases for Trello Application
     And I logout and quit browser
     
     Examples:
-			| boardName	| listName	| cardName		|
-			|Random name|		List1		|Card1--Card2	|
+			|	boardName		|	listName	|	cardName			|
+			|	Random name	|	List1			|	Card1--Card2	|
