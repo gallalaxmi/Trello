@@ -1,4 +1,4 @@
-@AllCases1
+@AllCases
 Feature: Create Board
   
   To create a board in trello, Authenticate as valid Trello API consumer

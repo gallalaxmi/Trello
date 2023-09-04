@@ -13,22 +13,14 @@ The Selenium automation Framework is a code structure that makes code maintenanc
 <ul>
     <li>Clone the project and open it in an editor Eclipse </li>
 </ul>
-<h3> UI TesCases Execution<h3>
+<h3> TesCases Execution<h3>
  <li>In the terminal, to downlaod packages/dependencies run:<br> 
-    <code>mvn clean install</code> 
-<li>To execute tests, run: <Br>
-    <code>Right click on testRunner.java and run as JUnit Runner</code>
-</li>
+    <code>mvn clean test</code> 
 
-<h3> API TesCases Execution<h3>
- <li>In the terminal, to downlaod packages/dependencies run:<br> 
-    <code>mvn clean install</code> 
-<li>To execute tests, run: <Br>
-    <code>Right click on TrelloRunner.java and run as JUnit Runner</code>
-</li>
 
 <li>Improvments: <Br>
     <code>We can integrate Allure/Extent report for better results to show in pictorial way</code>
+    <code>We can improve in exception handling </code>
 </li>
 <h3> Saample Report <h3>
 <img width="1680" alt="Screenshot 2023-09-04 at 06 02 27" src="https://github.com/gallalaxmi/Trello/assets/94502443/d5050c9e-a434-4e06-9b74-558f871647fc">

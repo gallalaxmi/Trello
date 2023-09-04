@@ -2,9 +2,11 @@ package com.knab.runner;
 
 import java.io.IOException;
 import org.testng.annotations.BeforeClass;
+
+import com.knab.util.EnvironmentSetup;
+
 import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
-import com.knab.util.EnvironmentSetup;
 
 @CucumberOptions(features = { "src/test/resources/features" }, glue = { "com.knab.stepDefinations" }, plugin = {
 		"json:target/cucumber.json"}, dryRun = false, monochrome = true, strict = true, tags = "@AllCases")

@@ -27,7 +27,7 @@ public class LoginScreen extends BaseDriver {
 	public void enterCredetials() throws IOException, InterruptedException {
 		action.doSendKeys(login.userName, prop.getProperty("username"));
 		action.doClick(login.continueButton);
-		Thread.sleep(1000);
+		Thread.sleep(2500);
 		action.doSendKeys(login.password, prop.getProperty("password"));
 		action.doClick(login.loginSubmit);
 	}
@@ -37,7 +37,7 @@ public class LoginScreen extends BaseDriver {
 		action.doClick(home.logIn);
 		action.doSendKeys(login.userName, prop.getProperty("username"));
 		action.doClick(login.continueButton);
-		Thread.sleep(1000);
+		Thread.sleep(2500);
 		action.doSendKeys(login.password, prop.getProperty("password"));
 		action.doClick(login.loginSubmit);
 		action.doIsDisplayed(boards.applicationSwitcher);
